@@ -1,0 +1,129 @@
+[
+    {
+        "Id": "sha256:64d09634c60d2a75596bc705aa84bdc41f76fe47c5d9ee362550bffbdc256979",
+        "RepoTags": [
+            "gcr.io/k8s-minikube/kicbase:v0.0.29"
+        ],
+        "RepoDigests": [
+            "gcr.io/k8s-minikube/kicbase@sha256:be897edc9ed473a9678010f390a0092f488f6a1c30865f571c3b6388f9f56f9b"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2021-12-22T22:55:44.305005103Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "22/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=docker"
+            ],
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/usr/local/bin/entrypoint",
+                "/sbin/init"
+            ],
+            "OnBuild": null,
+            "Labels": null,
+            "StopSignal": "SIGRTMIN+3"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1140385814,
+        "VirtualSize": 1140385814,
+        "GraphDriver": {
+            "Data": {
+                "DeviceId": "45",
+                "DeviceName": "docker-253:1-4051-5545b4bd32deb69b00fa27667784c16d8c58265df7319cb6da20404d9e962642",
+                "DeviceSize": "10737418240"
+            },
+            "Name": "devicemapper"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:0e64bafdc7ee828d0f3995bebfa388ced52a625ad2969eeb569f4a83db56d505",
+                "sha256:935f303ebf75656fcbf822491f56646c5a875bd0ad0bf2529671d31dd5456dfa",
+                "sha256:346be19f13b0ccad355ab89265edaa4ac5958a42b8bb0492d2d22d9e4538def4",
+                "sha256:5914dbaf28eaa732b97660cc8432f3307000e50c66d277c392e997da905ca001",
+                "sha256:4c16f9d2100c7670ce393554297addc2c5b2e683d90a4e0d9e0629e697b8691c",
+                "sha256:23d1fe680832d3370c36390a711a3f5445613cbbadd6265567a64f2345ba19c1",
+                "sha256:027799541ee9879fd1e37796517e698af25d2c8bdefae443700c66d18e5b7924",
+                "sha256:5a703351f045e7dcb4ec3557646b65b94bf6abe6c6d10db84ff52147e6d90e77",
+                "sha256:c3d94b522db2e5cd318f19131afa6fa02d911a7e97c3b0456909ccc3527bb386",
+                "sha256:885b8a6d36a2aba34631a9ed2943d2c8b19f9cde16a18573933bcd6f707181b2",
+                "sha256:7e4ffe68500d3a2be544b64f42ec9cf728d157cad7c965e1ef3f7d03b90eb9f5",
+                "sha256:f64e3d7e6a01142def8cc0eca6ed945db6f98f7ffd107a70d31732ce3fe91fae",
+                "sha256:3581551956646b63c3053fa79afc2be891f11e73d97a5801aaecd610f07dad2c",
+                "sha256:0d62dcf4e8849577256119e4ffe1b907765f47d63f9bf42108fc2b3a69384317",
+                "sha256:0c1e478624f6f621406e6ae99184d9e022e2a77e465386f01ddca82dcd6b2c9e",
+                "sha256:a4c0d33b22095b7fb1cd0392d8d927a691df8b7c3e4cd6f74791df5e912307a9",
+                "sha256:b42646cc648e0cbf2360765ff512e7efd6beb077fcf25ae973fdf9ae87921291",
+                "sha256:4fa91a504a047bbac1d896887b0af373f24315a80dcb8791291092bb1dad014e",
+                "sha256:bbcbf03eb118eb7938c77fea0033c3117e501ab5127e649c6f7110fd76341752",
+                "sha256:84bc45f6cbb205ad75df208d8c90ee1f7a2a753e98f03a468e4e0005680fb421",
+                "sha256:ab1c2eb92171b98451fe9322f5d32fb0acb48c6805bb5a85338d233dbff36211",
+                "sha256:7c18a437e51054134f288c67f736f3deb1f6d7e7cc820a67937f4657c5b2f717",
+                "sha256:8d2f613ef051a16d8d3a8da61dd27e7d8cfe620d38a5a6aafddb86e5a8da87f6",
+                "sha256:8798ec4f058b477493c0921e6b9d12c10b18a257d0aaaa2b9e5fbd8d80b347de",
+                "sha256:1920aa5bea93ddd8755b7b64ec7c05c4e7ae163da3f58a01bb6cbc19ec5f4c13",
+                "sha256:6717cbf4937f98c69cf0c0ffb8267c10ef58304cb1bbd2971927a39820a68072",
+                "sha256:aac7c39b8ccc4c0db29a8a65ea81c5bd3e8b69d48c93209185a0b61c4aa3fb55",
+                "sha256:28a424e3f5d9018bacee030160f8c6a8b545a8c66cf2878cec08da51d6d77134",
+                "sha256:986a31a44f07a31445a69b918caadb8b23fb01ab191fee8509e1e117ef0a819b",
+                "sha256:c346239b0a048ab7c7a887abb4dbaeea5d6c4b2450256f2143095e9dbebbf0a8",
+                "sha256:7d7cc33c7275c40ed212e97ac0237d21c8077168bee335e85e276541d2b3cd10",
+                "sha256:ac3de68e347c6f9e1d1125ed8f915c12b1866307c233a8f9a340779a52350d73",
+                "sha256:93dda7e47fdac9fce8d7318f55235554b88840632826255027f04449675ee56d",
+                "sha256:088a4895a04feffd8bfc7110facd6d4fd9cd545d452a5d4d6dbf2358eb2d12e1",
+                "sha256:e8a89705a4a96ebdf5520964a559ce2d0badfa0a8371403cf2115078c5b25b29",
+                "sha256:cbeb9a99913cef2eee04b7430594cbf50e5698d28eba19c20c9534c03de4cf4a",
+                "sha256:bc3babf3d5d2811b5ce3bf5fb7111f71c3e6e97a4db8d457ee5ffa79d62c5e05",
+                "sha256:603e2f2f952edaaa5f7050f08f7e09b89d38c54fb4c3cbf2844e68b6093ebc36",
+                "sha256:b6c9f747845cea7e7985acab7d3f9161c1e8ee43d27856be2e64e22c7a10434b",
+                "sha256:8b4717d3061b8718f668f0c6a97a2425ff1844a1c5f2a5dc97a22018b5959ebd",
+                "sha256:035c32285a26f7e29c7276a463b749ff6747b29e8cc4a7ccaca3f445ecc9160a",
+                "sha256:54255da80f9f62a202f26bb4ece1e323c67e3416ee21ea4ebcc7bebc052d67fa",
+                "sha256:51f3d3262dacffd1a49bd108b15f4b3a50dd97de6b27a3cd8fcf89df7c908d0c",
+                "sha256:2327be2561ef2a63678d189a784c5a01f08cb47884e9c89cf929f47a774d9dfa"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
